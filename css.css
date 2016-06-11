@@ -1,0 +1,144 @@
+/*
+header {
+	background-color: black;
+	color: white;
+	padding: 5px;
+	height: 100px; 
+	line-height: 10px;
+	float: top;
+}
+#page {
+	margin: 0%;
+	min-height: 100%;
+	min-width: 100%;
+	background-color: ;
+}
+html {
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+*/
+.headingdiv {
+	background-color: purple;
+	margin-left: 110px;
+	margin-right: 260px;
+/*	padding-bottom: 5px; */
+}
+.heading:hover{
+	font-size: 60px;
+}
+/*
+.searchdiv {
+	background-color: black;
+	color: white;
+	height: 50px; 
+	line-height: auto;
+}
+.searchbar {
+	float: right;
+	position: relative "right:100px" "top:0%";
+}
+*/
+.heading {
+	font-family: 'Tangerine', serif;
+	font-size: 50px;
+	color: white;
+	font-style: strong;
+/*	text-align: center; */
+}
+body {
+	font-family: 'Kalam', cursive;
+	font-size: 17px;
+}
+.text {
+	text-align: left;
+	width: 950px
+}
+nav {
+	background-color: white;
+	text-align: left;
+	float: left;
+	padding: 5px;
+	height: 200px;
+	width: 100px;
+	
+}
+/*
+a:hover{
+	background: purple;
+	font-size: 100%;
+}
+a:visited{
+	background-color: white;
+	color: purple;
+}
+*/
+button {
+	background-color: purple;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+button:hover {
+	background-color: white;
+    color: purple;
+	cursor: hand;
+}
+/*
+button:active, button:visited {
+	background-color: white;
+    color: purple;
+}
+*/
+aside {
+	background-color: white;
+	float: right; /* or left */
+	width: 220px;
+	height: auto;
+	text-align: center;
+	padding: 5px;
+}
+section {
+	background-color: #7F00FF;
+	padding: 5px;
+	width: 950px; /* find a default vale to fix it at */
+	float: left; /* or left */
+}
+.subHeading {
+	font-family: 'Covered By Your Grace', cursive;
+	text-align: center;
+}
+.pictureSection {
+	-webkit-column-count: 2;
+	-webkit-column-gap: 150px; 
+	padding: 5px;
+}
+.articles {
+	border: solid black 1px;
+	background-color: white;
+	text-align: center;
+	font-size: 15px;
+}
+.articles:hover {
+	border: dashed black 1px; /*find other things to do with it*/
+}
+.textLeft {
+	text-align: left;
+/*	width: 200px;	*/	
+}
+footer {
+	float: bottom;
+	clear: both;
+	background-color: black;
+	color: white;
+	height: auto;
+	text-align: center;
+	padding: 5px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 40px; 
+}
+.footerSection {
+	text-align: center;
+}
