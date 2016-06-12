@@ -1,0 +1,119 @@
+<!-- <!DOCTYPE html> -->
+<html>
+	<head>
+		<title> myWedding | Sign Up </title>
+		<!-- add favicon -->
+		<link rel = "stylesheet" type = "text/css" href = "css.css" />
+		<link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" />
+		<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet' type='text/css'>
+		<script type = "text/javascript">
+                        function validation() {
+                                var p = document.getElementById("pass").value;
+                                var cp = document.getElementById("confirmpass").value;
+                                /*
+                                if( (document.getElementById("bname").value == "") || (document.getElementById("gname").value == "") || (document.getElementById("email").value == "") || (document.getElementById("wedday").value == "") || (document.getElementById("wedmonth").value == "") || (document.getElementById("wedyear").value == "") || (document.getElementById("pass").value == "") || (document.getElementById("confirmpass").value == "") ) {
+                                        alert("Key fields have not been entered");
+                                }
+                                
+                                else if( (doument.getElementById("wedday").value > 31) || (document.getElementById("wedmonth").value > 12) || (document.getElementById("wedyear").value < 2016) ){
+                                        alert("Invalid date entered");
+                                }
+                                
+                                
+                                else */
+                                if (p != cp){
+                                        alert("Passwords do not match");
+                                }
+                        }
+		</script>
+		<style>
+                        section {
+                            background-color: #7F00FF;
+                            padding: 5px;
+                            width: 1215px;
+                            float: left; /* or left */
+                        }
+		</style>
+	</head>
+	<body>
+		<!--	<header> -->
+			<div class = "headingdiv">
+				<h1 class = "heading"><strong>myWedding</strong></h1>
+			</div>
+			<!--
+			<div class = "searchdiv">
+				<form class = "searchbar">
+					<label for = "searchbox"> Search </label>
+					<input type = "search" name = "searchbox" id = "search" placeholder = "Search something"/>
+				</form>
+			</div>
+			-->
+	<!--	</header>	-->
+		
+		<nav>
+			<a href = "1.html"> <button> Home </button> </a> <br><br>
+			<a href = "2.html"> <button> Developers </button> </a> <br><br>
+			<a href = "3.html"> <button> Gallery </button> </a> <br><br>
+			<a href = "5.html"> <button> About Us </button> </a>
+		</nav>
+		<section>
+			<h2 class = "subHeading"> Sign Up </h2>
+			<form class = "sigupform">
+                            <table>
+                                <tr>
+                                    <td colspan = 2><label for = "bname"> Brides Name: </label>
+                                    <td colspan = 2><input type = "text" id = "bname" name = "bname" maxlength = "15" placeholder = "Alexa" required/> <br>
+                                </tr>
+                                <tr>
+                                    <td colspan = 2><label for = "gname"> Grooms Name: </label>
+                                    <td colspan = 2><input type = "text" id = "gname" name = "gname" maxlength = "15" placeholder = "Alex" required/> <br>
+                                </tr>
+                                <tr>    
+                                    <td colspan = 2><label for = "email"> Email: </label>
+                                    <td colspan = 2><input type = "text" id  = "email" name = "email" maxlength = "50" placeholder = "someone@example.com" required/> <br>
+                                </tr>
+                                <tr>
+                                    <td colspan = 2><label for = "weddate"> Wedding Date: </label>
+                                    <td colspan = 2><input type = "date" id = "weddate" name = "weddate" min = "2016-07-01" required/> <br>
+                                    <!--
+                                    <td colspan = 2><label for = "wedday"> Wedding Day: </label>
+                                    <td><input type = "number" min = "01" max = "31" id  = "wedday" name = "wedday" placeholder = "dd" required/>
+                                    <td><label for = "wedmonth"> Month: </label>
+                                    <input type = "number" min = "01" max = "12" id  = "wedmonth" name = "wedmonth" placeholder = "mm" required/>
+                                    <label for = "wedyear"> Year: </label>
+                                    <input type = "number" min = "2016" id  = "wedyear" name = "wedyear" placeholder = "yyyy" required/> <br>
+                                    -->
+                                </tr>
+                                <tr>
+                                    <td colspan = 2><label for = "pass"> Password: </label>
+                                    <td colspan = 2><input type = "password" id  = "pass" name = "pass" required/> <br>
+                                </tr>
+                                <tr>
+                                    <td colspan = 2><label for = "confirmpass"> Confirm Password: </label>
+                                    <td colspan = 2><input type = "password" id  = "confirmpass" name = "confrimpass" required/> <br>
+                                </tr>
+                            </table> 
+                             
+                            <input type = "reset" value = "Clear fields" float = "left"/>
+                            <input type = "submit" value = "Sign up" onclick = "validation()" float = "right"/> <br>
+                                                       
+                        </form>
+		</section>
+		
+		<footer>
+			<div class = "footerSection">
+				<h4>Company</h4>
+				<a href =  "5.html"> About Us </a> <br>
+				<a href =  "2.html"> Developers </a> <br>
+			</div>
+			<div class = "footerSection">
+				<h4>Follow us</h4>
+				<a href = "https://www.facebook.com"> Facebook </a> <br> 
+				<a href = "https://www.twitter.com"> Twitter </a> <br>
+				<a href = "https://www.instagram.com"> Instagram </a> <br>
+				<a href = "https://www.snapchat.com"> Snapchat </a> <br>
+			</div>
+		</footer>
+	</body>
+</html>

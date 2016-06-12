@@ -9,23 +9,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-	
-		<?php
-			$servername = "localhost";
-			$username = "username";
-			$password = "password";
-
-			// Create connection
-			$conn = new mysqli($servername, $username, $password);
-
-			// Check connection
-			if ($conn->connect_error) {
-				die("Connection failed: " . $conn->connect_error);
-			} 
-			echo "Connected successfully";
-		?>
-	
-		<!--	<header> -->
+        <!--	<header> -->
 			<div class = "headingdiv">
 				<h1 class = "heading"><strong>myWedding</strong></h1>
 			</div>
@@ -43,7 +27,7 @@
 			<a href = "1.html"> <button> Home </button> </a> <br><br>
 			<a href = "2.html"> <button> Developers </button> </a> <br><br>
 			<a href = "3.html"> <button> Gallery </button> </a> <br><br>
-			<a href = "<!-- link to page -->"> <button> About Us </button> </a>
+			<a href = "5.html"> <button> About Us </button> </a>
 		</nav>
 		<section>
 			<h2 class = "subHeading"> Gallery </h2>		
@@ -75,7 +59,7 @@
 		<footer>
 			<div class = "footerSection">
 				<h4>Company</h4>
-				About us <br>
+				<a href =  "5.html"> About Us </a> <br>
 				<a href =  "2.html"> Developers </a> <br>
 			</div>
 			<div class = "footerSection">

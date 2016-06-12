@@ -75,16 +75,17 @@ a:visited{
 }
 */
 button {
-	background-color: purple;
+    background-color: purple;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
+    width: 100px;
 }
 button:hover {
-	background-color: white;
+    background-color: white;
     color: purple;
-	cursor: hand;
+    cursor: hand;
 }
 /*
 button:active, button:visited {
@@ -100,16 +101,36 @@ aside {
 	text-align: center;
 	padding: 5px;
 }
+.signupform {
+    text-align: left;
+    padding: 5px;
+    border: 10px black solid;
+    
+}
 section {
 	background-color: #7F00FF;
 	padding: 5px;
-	width: 950px; /* find a default vale to fix it at */
+	width: 950px;
 	float: left; /* or left */
 }
 .subHeading {
 	font-family: 'Covered By Your Grace', cursive;
 	text-align: center;
 }
+.subHeading:hover {
+    background: white;
+    color: purple;
+}
+input {
+    border: 2px black solid;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 4px;
+}
+input:focus{
+    border: 4px purple solid;
+}
+
 .pictureSection {
 	-webkit-column-count: 2;
 	-webkit-column-gap: 150px; 
