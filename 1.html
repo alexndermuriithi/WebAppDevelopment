@@ -2,22 +2,22 @@
 <html>
 	<head>
 		<title> myWedding | Home </title>
-		<!-- add favicon -->
+		<!-- add favicon -->		
 		<link rel = "stylesheet" type = "text/css" href = "css.css" />
 		<link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" />
 		<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet' type='text/css'>
-                
+                <!--
                 <script type = "text/javascript">
-                        /*
+                    
                         function validation() {
                                 if((document.getElementById("email").value == "") || (document.getElementById("pass").value == ""))
                                         alert("You have not entered your email or your password");
                                 // add php code to check password with db
                         }
-                        */
+                        
                 </script>
-	
+                -->
 	</head>
 	<body>
 	<div id = "page">
@@ -92,12 +92,12 @@
 		</section>
 		<aside>
 			<h2> Login </h2>
-			<form>
+			<form method = "post" action = "login.php">
 				<label for = "email"> Email </label> <br>
 				<input type = "email" name = "email" id = "email" placeholder = "someone@example.com" required/> <br>
 				<label for = "pass"> Password </label> <br>
 				<input type = "password" id = "pass" name = "pass" required/> <br>
-				<input type = "submit" value = "Login" onclick = "validation()"/> <br><br>
+				<input type = "submit" value = "Login"/> <br><br>
 				<a href = "4.html"> Dont have an account? <br> Sign up. </a>
 			</form>
 		</aside>
