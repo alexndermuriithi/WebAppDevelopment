@@ -1,0 +1,110 @@
+/* Style for the index page */
+
+.full {
+  background: url(http://korolcat.ru/wp-content/uploads/2016/03/v-kakom-mesyace-vyxodit-zamuzh-v-2016-godu.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.index-body {
+	margin-top: 200px;
+	margin-bottom: 200px;
+	margin-left: 400px;
+	background: none;
+	text-align: center;
+}
+.col-md-6 h1 {
+	font-size: 7.5em;
+	color: purple;
+	text-shadow: 5px 5px 5px purple;
+}
+.col-md-6 small{
+	font-size: 2.5em;
+	color: white;
+}
+.btn-dark {
+    border-radius: 0;
+    color: white;
+    background-color: purple;
+	font-size: 1.5em;
+}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: purple;
+    background-color: white;
+	text-decoration: none;
+}
+
+/* end of index page style */
+
+/* Style for Login page */
+
+.btn-login {
+	background-color: purple;
+	color: white;
+}
+.btn-login:hover {
+	background-color: lightgrey;
+	color: black;
+}
+.login-form {
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+/* end of login page style */
+
+/* Style for generic pages */
+
+body{
+	font-size: 1.5em;
+}
+.jumbotron {
+	background-color: purple;
+	color: white;
+	font-style: strong;
+	text-align: center;
+}
+.jumbotron h1{
+	font-size: 6em;
+	text-shadow: 2px 2px 2px white;
+	font-family: 'Mogra', cursive; 
+/*	font-family: 'Courgette', cursive: */
+/*	font-family: "Lucida Console", Monaco, monospace;	*/
+}
+.jumbotron small{
+	font-size: 2em;
+/*	font-family: 'Tangerine', serif; */
+	font-family: 'Courgette', cursive; 
+/*	font-family: 'Mogra', cursive; */
+/*	font-family: "Lucida Console", Monaco, monospace; */
+}
+.text-content {
+	color: black;
+}
+.text-header {
+	color: purple;
+}
+.col-md-12 p {
+	font-size: 18px;
+}
+.row {
+	padding: 5px;
+}
+.navbar {
+	background-color: white;
+	padding-bottom: 2px;
+}
+li:hover {
+	background-color:purple;
+	color: white;
+}
+.footer {
+	background-color: purple;
+	color: white;
+	padding: 2px;
+}
+
+/* end of generic page style */
