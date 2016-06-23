@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>myWedding | Home </title>
+		
+		<meta charset="utf-8"> 
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel = "stylesheet" type = "text/css" href = "style.css" />
+		<link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+	
+	</head>
+	<body>
+		<div class = "jumbotron">
+			<h1>myWedding</h1>
+			<small>Your Planning Partner</small>
+		</div>
+		
+		<nav class = "navbar navbar-default navbar-fixed-top">
+			<div class = "container-fluid">
+				<div class="navbar-header">
+				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="HomePage.html">myWedding</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="HomePage.html" class="btn btn-link" role="button"><span class="glyphicon glyphicon-home"> Home</a></li>
+						<li><a href="Gallery.html" class="btn btn-link" role="button">Gallery</a></li>
+						<li class="dropdown"><a class="dropdown-toggle btn btn-link" data-toggle="dropdown" href="AboutUs.html">About<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li class = "disabled"><a href="AboutUs.html" class="btn btn-link" role="button">About Us</a></li>
+								<li class = "disabled"><a href="Developers.html" class="btn btn-link" role="button">Developers</a></li>
+							</ul>
+						</li>
+						<li class = "disabled"><a href="" class="btn btn-link" role="button">add page</a></li>						
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="SignUp.html" class="btn btn-link" role="button"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="#Login" class="btn btn-link" role="button"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>		
+		
+	<?php
+		include("header.php");
+	?>
+	
+	<div class = "container-fluid">
+			<div class = "row">
+				<div class = "col-md-10 col-md-pull-0">
+					<div class = "col-md-12 col-md-pull-0">
+						<h1 class = "page-header text-header"> Just a little tip </h1>
+					</div>
+					<div class = "col-md-12 col-md-pull-0">
+						<p class = "text-content">
+							Sure, we all know the stereotype that the bride plans the wedding while the groom's eyes glaze over, 
+							but there are a ton of ways guys like to get involved, and if you're on this looking for tips, you're definitely on the right track. 
+							If you're feeling a bit overwhelmed, here's the cheat sheet for easy ways to help plan the wedding. First, check out our tips for finding the right wedding attire. 
+							Whether you rent or buy, or choose a tuxedo or a more casual suit, we have advice and ideas for personalizing groom suits regardless of style. 
+						</p>
+					</div>
+					<div class = "col-md-12 col-md-pull-0">
+						<p class = "text-content">
+							If you need advice for choosing tuxedos for groomsmen, head over to our Groomsman Tips section. 
+							We'll let you know what your groomsmen's duties are as well as cool ideas for making them stand out. 
+							We even have advice for your guys in our Tips for Groomsmen section. Learn about tuxedo sizing basics for when you go for your fitting, 
+							and get great ideas for toasts and memorable bachelor parties. 
+							Speaking of the bachelor party, don't forget to read our ideas for how to throw the perfect party, even if you are on a budget.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-md-push-0">
+						<h3 class = "text"> <a name = "Login"><center> Login </center></a> </h3>
+						<form role="form" id = "login">
+							<div class="form-group">
+								<label for="email">Email:</label>
+								<input type="email" class="form-control" name = "email" id = "email" placeholder = "someone@example.com" required">
+							</div>
+							<div class="form-group">
+								<label for="pass">Password:</label>
+								<input type="password" class="form-control" id="pass" name = "pass" required>
+							</div>
+							<div class="checkbox">
+								<label><input type="checkbox"> Remember me</label>
+							</div>
+							<center>
+							<input type ="button" value = "Login" class="btn btn-default">
+							</center>
+						</form>
+					</div>				
+			</div>
+			<div class = "row">
+				<div class = "col-md-12" align = "center">
+					<h2 class = "text-header"> Get to pick <em>your</em> location </h2>
+					<h4> We have got it all!! </h4>
+				</div>
+				<div class = "col-md-4 col-md-offset-1">
+					<a class = "thumbnail" href = "#">
+						<img class="img-responsive" src = "http://boovwedding.com/wp-content/uploads/2014/06/outdoor-wedding-venue-150.jpg" title = "Outdoors" alt="">
+					</a>
+					<center><figcaption><h3> Outdoors </h3> </figcaption></center>
+				</div>
+				<div class = "col-md-4 col-md-offset-2">
+					<a class = "thumbnail" href = "#">
+						<img class="img-responsive" src = "https://menguinstaging.files.wordpress.com/2016/02/ar6.png" title = "Indoors" alt="">
+					</a>
+					<center><figcaption><h3> Indoors </h3> </figcaption></center>
+				</div>
+				
+				<div class = "col-md-12" align = "center">
+					<h2 class = "text-header"> Get to pick the <em>perfect</em> attire </h2>
+					<h4> From daper to drop dead gorgeous <em>you</em> can have it all!! </h4>
+				</div>
+				<div class = "col-md-4">
+					<a class = "thumbnail" href = "#">
+						<img class="img-responsive" src = "http://1vhecl2t28cz1d6u757mqb71.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/groom-suits.jpg" title = "Wedding Tux's" alt="">
+					</a>
+					<center><figcaption><h3> Wedding Tux's </h3> </figcaption></center>
+				</div>
+				<div class = "col-md-4">
+					<a class = "thumbnail" href = "#">
+						<img class="img-responsive" src = "http://www.bluebridesmaiddresses.com.au/wp-content/uploads/2015/08/ombre-blue-bridesmaid-dresses.jpg" title = "Bridesmaid dresses" alt="">
+					</a>
+					<center><figcaption><h3> Bridesmaid Dresses </h3> </figcaption></center>
+				</div>
+				<div class = "col-md-4">
+					<a class = "thumbnail" href = "#">
+						<img class="img-responsive" src = "http://www.fashionlobster.com/wp-content/uploads/2015/11/mermaid-wedding-dress-500x400.jpg" title = "Wedding Dress" alt="">
+					</a>
+					<center><figcaption><h3> Wedding Dresses </h3> </figcaption></center>
+				</div>
+				
+				<div class = "col-md-12" align = "center">
+					<h2 class = "text-header"> More wedding ideas </h2>
+					<h4> Rings, Accessories, Parties and <em>much</em> more!! </h4>
+				</div>
+				<div class = "col-md-3">
+					<a class = "thumbnail" href = "#">
+						<img class="img-responsive" src = "http://www.wedding.dvdrwinfo.net/thumbnail/exceptional-cheap-wedding-rings-15-marriage-wedding-ring-symbol-400-x-300.jpg" title = "Rings" alt="">
+					</a>
+					<center><figcaption><h3> Rings </h3> </figcaption></center>
+				</div>
+				<div class = "col-md-3">
+					<a class = "thumbnail" href = "#">
+						<img class="img-responsive" src = "http://4.bp.blogspot.com/-Cwo71jV-mqE/T9DkpWZh3kI/AAAAAAAAA6A/sluwr3L5Xs0/s400/Copy+(3)+of+Traditional-Indian-Ethnic-Polki-Wedding-Jewellery-Set-520x390.jpg" title = "Accessories" alt="">
+					</a>
+					<center><figcaption><h3> Accessories </h3> </figcaption></center>
+				</div>
+				<div class = "col-md-3">
+					<a class = "thumbnail" href = "#">
+						<img class="img-responsive" src = "https://www.evenuebooking.com/blog/wp-content/uploads/2015/08/Bachelors-Party.jpg" title = "Parties" alt="">
+					</a>
+					<center><figcaption><h3> Parties </h3> </figcaption></center>
+				</div>
+				<div class = "col-md-3">
+					<a class = "thumbnail" href = "#">
+						<img class="img-responsive" src = "http://willowweddings.com/wp-content/uploads/2014/07/beach-wedding-chalkidiki-greece-6-400x300.jpg" title = "Other cool stuff" alt="">
+					</a>
+					<center><figcaption><h3> More, more, more... </h3> </figcaption></center>
+				</div>
+			</div>
+
+			<div class = "row footer">
+				<div class = "col-md-4 col-md-offset-4">
+					<center>
+						<h4>Follow us</h4>
+						<div class = "col-md-3"><a href="http://www.facebook.com/mywedding"><img width = 50px height = 50px src = "http://www.algonquincollege.com/infosec/files/2016/01/35740AA3584B4E43AB84254C17B18982.png"></a></div>
+						<div class = "col-md-3"><a href="#"><img width = 50px height = 50px src = "https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-256.png"></a></div>
+						<div class = "col-md-3"><a href="http://www.instagram.com/mywedding"><img width = 50px height = 50px src = "https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-128.png"></a></div>
+						<div class = "col-md-3"><a href="http://www.pintrest.com/mywedding"><img width = 50px height = 50px src = "http://icons.iconarchive.com/icons/martz90/circle/512/pinterest-icon.png"></a></div>
+						<p> Copyright myWedding<span class="glyphicon glyphicon-copyright-mark">. </p>
+					</center>
+				</div>
+			</div>			
+			
+		</div>
+	</body>
+</html>
